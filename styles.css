@@ -1,18 +1,49 @@
 .main-content {
     position: relative;
-    font-family: Arial, sans-serif;
 }
 
-.carousel-item img {
+a {
+    text-decoration: none !important;
+    color: black;
+}
+
+
+  .carousel-item img {
+    width: 100%;
     object-fit: cover;
-    height: 100%;
 }
 
-.navbar .search-bar input {
-    max-width: 250px;
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(48, 53, 59, 0.3);
+    z-index: 10;
+    padding: 1rem 2rem;
 }
 
-.icon {
-    height: 24px;
-    background-color: rgba(228, 225, 221, 0.425);
+.navbar-brand img {
+    height: 40px;
 }
+
+.search-bar {
+    width: 800px;
+    max-width: 100%;
+    background: rgba(255, 255, 255, 0.8);;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 1rem;
+    color: #333;
+    opacity: 0.6 !important;
+}
+.search-bar::placeholder {
+    margin-left: 130px !important;
+}
+
+.navbar .btn {
+    margin-left: 1rem;
+}
+
+
