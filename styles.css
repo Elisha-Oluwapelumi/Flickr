@@ -1,125 +1,18 @@
 .main-content {
     position: relative;
+    font-family: Arial, sans-serif;
 }
 
-a {
-    text-decoration: none !important;
-    color: black;
-}
-
-
-  .carousel-item img {
-    width: 100%;
+.carousel-item img {
     object-fit: cover;
+    height: 100%;
 }
 
-.navbar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(48, 53, 59, 0.3);
-    z-index: 10;
-    padding: 1rem 2rem;
+.navbar .search-bar input {
+    max-width: 250px;
 }
 
-.navbar-brand img {
-    height: 40px;
-}
-
-.search-bar {
-    width: 800px;
-    max-width: 100%;
-    background: rgba(255, 255, 255, 0.8);;
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 20px;
-    font-size: 1rem;
-    color: #333;
-    opacity: 0.6 !important;
-}
-.search-bar::placeholder {
-    margin-left: 130px !important;
-}
-
-.navbar .btn {
-    margin-left: 1rem;
-}
-
-
-@media (max-width: 1200px) {
-    .search-bar {
-        width: 600px;
-    }
-
-    .text-light.display-5 {
-        margin-left: 300px;
-    }
-}
-
-@media (max-width: 992px) {
-    .search-bar {
-        width: 100%;
-    }
-
-    .text-light.display-5 {
-        margin-left: 0;
-        text-align: center;
-    }
-
-    p.text-light {
-        margin-left: 0;
-        text-align: center;
-        width: auto;
-        font-size: 22px;
-    }
-
-    .start-button-container {
-        margin-left: 0;
-        text-align: center;
-    }
-
-    .carousel-caption h6,
-    .carousel-caption p {
-        font-size: 14px;
-    }
-}
-
-@media (max-width: 768px) {
-    .navbar .d-flex {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .search-bar {
-        width: 100%;
-        margin: 1rem 0;
-    }
-
-    .navbar .btn {
-        margin-left: 0;
-        margin-top: 1rem;
-    }
-
-    .carousel-item img {
-        height: 300px;
-    }
-
-    footer div {
-        font-size: 12px;
-    }
-}
-
-@media (max-width: 576px) {
-    .carousel-caption h6 {
-        font-size: 12px;
-    }
-
-    .carousel-item img {
-        height: 200px;
-    }
-
-    footer div {
-        font-size: 10px;
-    }
+.icon {
+    height: 24px;
+    background-color: rgba(228, 225, 221, 0.425);
 }
