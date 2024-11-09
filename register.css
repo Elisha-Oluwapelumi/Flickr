@@ -1,0 +1,107 @@
+html, body {
+    padding: 0;
+    width: 100vw !important;
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+#logo {
+    position: sticky;
+    left: 90px;
+    top: 0;
+    z-index: 200;
+}
+
+#border {
+    background-color: white;
+    height: 680px;
+    width: 440px;
+    margin: auto; 
+    border-radius: 4px;
+}
+
+.img {
+    background-image: url(images/033120190455-by-Henry.2edde7a9.jpg);
+    background-size: cover; 
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+#second {
+    position: relative;
+    left: 170px;
+}
+
+#log {
+    font-size: 20px;
+    font-weight: bold;
+    left: 120px;
+    top: 40px;
+    font-family: sans-serif;
+    position: relative;
+}
+
+#section {
+    overflow-x: hidden;
+}
+
+#email {
+    height: 50px;
+    width: 360px;
+    margin: 60px auto 0;
+}
+
+#services {
+    position: relative;
+    top: -10px;
+}
+
+@media screen and (max-width: 500px) {
+    .shadow {
+        position: relative;
+        right: 520px;
+        top: 3px;
+        overflow: hidden;
+    }
+    .fluid-container {
+        overflow: hidden;
+    }
+    #log {
+        position: relative;
+        top: -10px;
+        overflow: hidden;
+    }
+    .form-control {
+        width: 25%;
+        overflow: hidden;
+    }
+    .text-primary {
+        position: relative;
+        top: -0px;
+    }
+    .primary {
+        position: relative;
+        top: -138px;
+        left: 99px;
+    }
+    #member {
+        position: relative;
+        top: -18px;
+    }
+    #services {
+        position: relative;
+        top: -60px;
+        left: 108px;
+    }
+    #servicer {
+        position: relative;
+        top: -80px;
+        left: -80px;
+    }
+}

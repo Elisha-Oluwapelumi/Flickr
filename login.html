@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+</head>
+<body>
+    <div class="container-fluid p-0">
+        <nav class="navbar navbar-dark bg-dark position-sticky top-0 w-100">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/svgexport-2.svg" alt="Logo" class="my-1" height="50">
+                </a>
+            </div>
+        </nav>
+        
+        <div class="img d-flex align-items-center justify-content-center">
+            <div id="border" class="shadow-lg p-4">
+                <div class="text-center mb-4">
+                    <img src="images/second dot.png" alt="Logo" id="second" class="mb-3">
+                    <h2 id="log">Log in to Flickr</h2>
+                </div>
+                
+                <div class="container-fluid mt-2">
+                    <input type="email" id="email" class="form-control my-3" placeholder="Email address">
+                    <button class="btn btn-primary w-100 my-3">Next</button>
+                    <p id="member">Not a Flickr Member? <span class="text-primary"><a href="register.html">Sign up Here</a></span></p>
+                </div>
+                
+                <div class="d-flex justify-content-between align-items-center mt-4">
+                    <select id="select" class="form-select me-3">
+                        <option>English</option>
+                        <option>Bahasa Indonesia</option>
+                        <option>Tiếng Việt</option>
+                        <option>Português</option>
+                        <option>Italiano</option>
+                        <option>한국어</option>
+                        <option>Français</option>
+                        <option>Español</option>
+                        <option>Deutsch</option>
+                        <option>繁體中文</option>
+                    </select>
+                    <div id="footer-links" class="d-flex" style="display: flex; flex-direction: row; gap: 20px;">
+                        <a href="https://www.flickrhelp.com/hc/en-us" class="text-decoration-none text-muted me-3">Help</a>
+                        <a href="https://www.flickr.com/help/privacy" class="text-decoration-none text-muted me-3">Privacy</a>
+                        <a href="https://www.flickr.com/help/terms" class="text-decoration-none text-muted">Terms</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    z-index: 10;
+}
+
+.img {
+    background-image: url("images/033120190455-by-Henry.2edde7a9.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#border {
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+#second {
+    height: 60px;
+}
+
+#log {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+#email {
+    height: 50px;
+    font-size: 16px;
+}
+
+button {
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+#footer-links a {
+    font-size: 14px;
+    color: #6c757d;
+    text-decoration: none;
+}
+
+#footer-links a:hover {
+    color: #007bff;
+}
+
+#select {
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 500px) {
+    #border {
+        padding: 10px;
+    }
+    #log {
+        font-size: 20px;
+    }
+    #email, button, #select {
+        width: 100%;
+        font-size: 14px;
+    }
+}
